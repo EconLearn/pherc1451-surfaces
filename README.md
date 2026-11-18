@@ -3,10 +3,7 @@
 Release v1. Surfaces for PHerc1451, scan `20260319101107` (2.399 um), in the Vesuvius Challenge tifxyz format. All 41 open in villa's
 own loader. This is surface geometry only: **no ink result and no claim that any text is visible.**
 
-**Note added 18 Nov 2026.** Cross-section strips made after release (about one every 1.9 mm on the 10 largest of the 22 units that clear
-the fibre check below) found the surface leaving the papyrus and running in a dark gap between sheets for about 0.5-1.5 mm on 8 of those
-10 units. The rule that flags this has not yet been calibrated on surfaces known to lie on a sheet, so it may over-count thin sheet edges,
-but treat these surfaces as candidates to check, not as finished segments. A v2 with a per-vertex gap mask will follow.
+**Note added 18 Nov 2026 (corrected the same day).** An earlier version of this note said cross-sections flagged 8 of the 10 largest units. That flag is withdrawn: the same rule also flags 7 of 8 organiser meshes known to lie on a sheet. In straightened CT cross-sections the released surfaces leave bright papyrus for 0.4 mm or more about once per 3 cm of row, a rate similar to the organisers' reference meshes by the same measure (the measure barely separates on-sheet from in-gap positions on the reference meshes, AUC ~0.56, so this is weak evidence either way). At least one unit (t3y_09) visibly runs about 1-1.5 mm through a dark gap. This does not show or rule out sheet jumps; treat the surfaces as candidates to check, not as finished segments.
 
 ## Download
 The surfaces are in the release asset **`pherc1451_surfaces_v1.tar.gz`** (12.4 MB): see [Releases](../../releases/latest).
@@ -16,7 +13,7 @@ This repository page shows the README, the index table and the two pictures; `su
 
 **What this is.** 41 surface patches on PHerc1451, scan `20260319101107` (2.399 um), a scan with no published segments. Each was grown
 automatically with `vc_grow_seg_from_seed` on the organisers' m7 surface prediction, kept only where three independently grown patches
-agree within 2 level-2 voxels, then moved vertex by vertex (CT only) to the density centre of the papyrus layer it traces.
+agree within 2 level-2 voxels, then moved vertex by vertex (CT only) to the CT density centre of the layer it follows (which layer it follows is not verified).
 
 **Use it.** Each folder in `surfaces/` is a tifxyz named the way the PHerc0139 meshes are, `<unit>-on-20260319101107-2.399um.tifxyz`,
 with x/y/z in **level-0 voxels** of `PHerc1451/volumes/20260319101107-2.399um-0.2m-78keV-masked.zarr`. Copy the folders into a volpkg's
