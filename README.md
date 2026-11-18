@@ -1,7 +1,12 @@
-# PHerc1451: 41 automatically grown surfaces, 192.36 cm², placed at the centre of the papyrus layer
+# PHerc1451: 41 automatically grown surfaces, 192.36 cm², moved to the CT density centre (which sheet not verified)
 
 Release v1. Surfaces for PHerc1451, scan `20260319101107` (2.399 um), in the Vesuvius Challenge tifxyz format. All 41 open in villa's
 own loader. This is surface geometry only: **no ink result and no claim that any text is visible.**
+
+**Note added 18 Nov 2026.** Cross-section strips made after release (about one every 1.9 mm on the 10 largest of the 22 units that clear
+the fibre check below) found the surface leaving the papyrus and running in a dark gap between sheets for about 0.5-1.5 mm on 8 of those
+10 units. The rule that flags this has not yet been calibrated on surfaces known to lie on a sheet, so it may over-count thin sheet edges,
+but treat these surfaces as candidates to check, not as finished segments. A v2 with a per-vertex gap mask will follow.
 
 ## Download
 The surfaces are in the release asset **`pherc1451_surfaces_v1.tar.gz`** (12.4 MB): see [Releases](../../releases/latest).
@@ -23,13 +28,17 @@ covers every file.
 |---|---|---|
 | Certified area in these 41 surfaces, overlaps counted once | 192.36 cm² | MEASURED on the grown surfaces (INDEX.csv, column certified_cm2_dedup_grown, sums to this). 13 further small sites (7.55 cm²) passed the same check but have no centred surface and are not in this release |
 | Area inside the 41 files (overlaps between units counted twice) | 255.78 cm², 750,688 vertices | MEASURED, evidence/stage1_package.jsonl |
-| Units clearing a cross-validated fibre check on the moved surface | 22 of 41 = 138.35 cm² | MEASURED (organisers' fibre prediction, never read by growth or move; bar 1.373; held-out organiser meshes 6/6; shifted control 0/10, 0/11) |
+| Units clearing a fibre-contrast check on the moved surface (see the note under this table) | 22 of 41 = 138.35 cm² | MEASURED (organisers' fibre prediction, never read by growth or move; bar 1.373; held-out organiser meshes 6/6; easy control, surface shifted 300 voxels in-plane: 0/10, 0/11; hard control, each unit scored with another unit's offset: 5/10 v 7/10 for the real units, not resolved at n = 10) |
 | Moved surface within 3 voxels of an m7 ridge | 146.08 cm² | CALC from MEASURED shares (INDEX.csv, m7_ridge_share_moved) |
 | Move raises fibre contrast at the surface | 30 of 32 units; on units new to the move 11/12 and 9/11 | MEASURED (three rounds, rule written before each); moving to the gap centre instead lowers it 20/20, 12/12, 11/11 |
 | Median distance from surface to fibre peak, before -> after the move | 3 -> 1 level-2 voxels (29 -> 10 um) | MEASURED |
 | Opens with villa's own loader (`vc_tifxyz2obj`, villa 405f3f32d) | 41 of 41 | MEASURED on these exact files, evidence/vc_load_check_package.tsv |
 | VC3D loader rules; vertices outside the scan | 41 of 41 pass; 0 outside | MEASURED, evidence/stage1_package.jsonl |
 | Written with villa's `vc_reader.tifxyz` (f29334cd8); read back v our source | identical masks; max difference 0.0005 level-2 voxel | MEASURED, evidence/build_roundtrip.jsonl |
+
+What the fibre check is, and is not: a contrast score from the organisers' fibre prediction near the surface, after each surface is shifted
+along its normal by its own best offset. It cannot tell a surface lying on a sheet from one running parallel to it in a gap, and it is not
+the prize's test that papyrus fibres are visible on the output surface.
 
 ## Coordinates: level 0 = 4 x level 2 + 1.5 (measured, not assumed)
 The surfaces were made on the level-2 grid. A plain x 4 would put them 1.5 level-0 voxels (3.6 um) off on each axis, because this scan's
@@ -59,16 +68,14 @@ Shipped was the closest on 14 of 14 units in run 1 and in 13 of 14 against each 
 `CONTACT_SHEET_41_ALL.jpg` (all 41 units rendered at level 0); `t3h_07_row0.5.png` (cross-section: red = grown surface in the air gap,
 green = moved surface inside the sheet).
 
-## Related tool PR
-https://github.com/ScrollPrize/villa/pull/2594 (draft): post-fit CT-ridge nudge for spiral fits, the same idea of placing a surface
-by the CT applied to fitted checkpoints.
-
 ## Licence and credit
-- **Surfaces, INDEX.csv and the evidence files: CC BY 4.0.** Credit: "PHerc1451 surfaces v1, EconLearn, 2026".
-- **Pictures** (`CONTACT_SHEET_41_ALL.jpg`, `t3h_07_row0.5.png`) are rendered from the scan, so they carry the scan's licence, **CC BY-NC 4.0**.
+- **Surfaces, INDEX.csv, the evidence files and the pictures: CC BY-NC 4.0**, the licence of the scan they are derived from. Credit: "PHerc1451 surfaces v1, EconLearn, 2026".
+- **Correction (18 Nov 2026):** the v1 release first said CC BY 4.0 for the surfaces, INDEX and evidence. That was an error: the scan's CC BY-NC 4.0
+  terms apply to these derived files, including the copy inside the v1 archive. Use them non-commercially.
 - **Scripts in `evidence/`: MIT.**
 - The scan and the surface and fibre predictions these surfaces were grown and checked on are Vesuvius Challenge / EduceLab data
-  (CC BY-NC 4.0, https://scrollprize.org/data). If you use the surfaces, cite the Vesuvius Challenge dataset for PHerc1451 as well.
+  (CC BY-NC 4.0, https://scrollprize.org/data). If you use the surfaces, please also cite the dataset as the data page asks:
+  > Giorgio Angelotti, Stephen Parsons, Sean Johnson, Elian Rafael Dal Prà, Johannes Rudolph, Paul Tafforeau, Alessandro Mirone, Paul Henderson, Hendrik Schilling, Forrest McDonald, David Josey, Youssef Nader, C. Seth Parker, W. Brent Seales. Vesuvius Challenge - CT Scans of Herculaneum Papyri. Vesuvius Challenge.
 - Tools used: `vc_grow_seg_from_seed`, `vc_render_tifxyz`, `vc_tifxyz2obj` and `vc_reader` from https://github.com/ScrollPrize/villa.
 
 ## Feedback
