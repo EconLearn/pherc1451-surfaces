@@ -1,42 +1,58 @@
-unit,folder,batch,seed_xyz_level0,certified_cm2_dedup_grown,certified_cm2_raw_grown,area_in_file_cm2,valid_vertices,fibre_gate_clears_moved,fibre_Pcv_moved,fibre_peak_offset_L2vx_moved,m7_ridge_share_moved,fibre_read,vc3d_loader,obj_vertices
-t3g_01,surfaces/t3g_01-on-20260319101107-2.399um.tifxyz,T3G,9157.5 13157.5 39441.5,5.3615,5.4095,5.4331,16285,False,1.3024,1,0.7657,confirmatory,PASS,16099
-t3g_04,surfaces/t3g_04-on-20260319101107-2.399um.tifxyz,T3G,10533.5 8161.5 21621.5,15.7848,15.7848,15.8813,45182,True,1.5478,0,0.7139,confirmatory,PASS,44974
-t3g_09,surfaces/t3g_09-on-20260319101107-2.399um.tifxyz,T3G,11697.5 13389.5 42921.5,3.6792,3.6792,3.6827,10967,False,1.0499,2,0.7806,confirmatory,PASS,10803
-t3g_10,surfaces/t3g_10-on-20260319101107-2.399um.tifxyz,T3G,11793.5 12649.5 23857.5,1.8862,1.8862,1.8964,6144,True,1.5271,-1,0.8306,confirmatory,PASS,6021
-t3g_14,surfaces/t3g_14-on-20260319101107-2.399um.tifxyz,T3G,11069.5 8709.5 30765.5,11.4720,11.4720,11.5349,34544,True,1.7128,-1,0.7728,confirmatory,PASS,33987
-t3g_15,surfaces/t3g_15-on-20260319101107-2.399um.tifxyz,T3G,7285.5 6629.5 36097.5,1.8444,1.8444,1.8500,5568,False,1.3594,3,0.8357,confirmatory,PASS,5447
-t3g_25,surfaces/t3g_25-on-20260319101107-2.399um.tifxyz,T3G,10125.5 5713.5 25213.5,2.2701,2.2701,2.2804,7259,True,1.4762,1,0.7482,confirmatory,PASS,7012
-t3g_27,surfaces/t3g_27-on-20260319101107-2.399um.tifxyz,T3G,8625.5 11137.5 19133.5,3.1343,16.4295,16.5547,46564,True,1.5044,-1,0.7317,confirmatory,PASS,46400
-t3g_30,surfaces/t3g_30-on-20260319101107-2.399um.tifxyz,T3G,12213.5 9649.5 24365.5,7.3870,7.7247,7.7662,24356,False,1.1812,-1,0.7740,confirmatory,PASS,23855
-t3g_36,surfaces/t3g_36-on-20260319101107-2.399um.tifxyz,T3G,12241.5 11405.5 13905.5,3.0485,3.3434,3.3624,10583,False,1.3462,-1,0.8048,confirmatory,PASS,10339
-t3h_00,surfaces/t3h_00-on-20260319101107-2.399um.tifxyz,T3H,8429.5 9921.5 22321.5,4.3452,19.0443,19.1944,53514,True,1.7439,-1,0.7301,confirmatory,PASS,53320
-t3h_02,surfaces/t3h_02-on-20260319101107-2.399um.tifxyz,T3H,14497.5 10269.5 45213.5,2.9630,2.9630,2.9769,9228,True,1.3740,0,0.7763,confirmatory,PASS,9031
-t3h_06,surfaces/t3h_06-on-20260319101107-2.399um.tifxyz,T3H,13165.5 9981.5 39493.5,4.4800,4.4818,4.5051,13669,True,1.4800,1,0.7832,confirmatory,PASS,13402
-t3h_07,surfaces/t3h_07-on-20260319101107-2.399um.tifxyz,T3H,11289.5 6813.5 39193.5,5.3126,5.3200,5.3421,15846,True,1.6763,0,0.7402,confirmatory,PASS,15606
-t3h_08,surfaces/t3h_08-on-20260319101107-2.399um.tifxyz,T3H,8545.5 10073.5 13541.5,0.3437,11.1295,11.2400,32231,True,1.5057,-1,0.6954,confirmatory,PASS,31917
-t3h_12,surfaces/t3h_12-on-20260319101107-2.399um.tifxyz,T3H,11121.5 10865.5 31249.5,0.4404,3.8106,3.8331,11061,True,1.5479,1,0.7967,confirmatory,PASS,10956
-t3h_13,surfaces/t3h_13-on-20260319101107-2.399um.tifxyz,T3H,10645.5 9137.5 25925.5,1.9810,14.0608,14.1677,40919,True,1.5390,-1,0.7194,confirmatory,PASS,40609
-t3h_19,surfaces/t3h_19-on-20260319101107-2.399um.tifxyz,T3H,7277.5 10453.5 39621.5,2.4972,2.5436,2.5602,7995,True,1.4504,1,0.7350,confirmatory,PASS,7788
-t3h_26,surfaces/t3h_26-on-20260319101107-2.399um.tifxyz,T3H,11437.5 13545.5 32477.5,0.3926,1.3615,1.3674,4411,False,1.2685,0,0.7862,confirmatory,PASS,4313
-t3h_27,surfaces/t3h_27-on-20260319101107-2.399um.tifxyz,T3H,10489.5 14193.5 46741.5,1.3340,1.3340,1.3358,4054,False,1.1629,-3,0.6408,confirmatory,PASS,4012
-t3h_52,surfaces/t3h_52-on-20260319101107-2.399um.tifxyz,T3H,12717.5 12389.5 20117.5,1.0381,1.0805,1.0844,3922,False,1.2274,-1,0.8172,confirmatory,PASS,3703
-t3y_02,surfaces/t3y_02-on-20260319101107-2.399um.tifxyz,earlier_VSG_t3y,8881.5 13449.5 29985.5,4.6230,4.6230,4.6400,14925,False,1.2756,1,0.7535,pilot,PASS,14472
-t3y_03,surfaces/t3y_03-on-20260319101107-2.399um.tifxyz,earlier_VSG_t3y,10941.5 12989.5 30013.5,3.8559,3.8559,3.8743,11969,False,0.9803,-6,0.8335,pilot,PASS,11742
-t3y_06,surfaces/t3y_06-on-20260319101107-2.399um.tifxyz,earlier_VSG_t3y,14329.5 11733.5 43441.5,4.2290,4.2290,4.2545,12785,False,1.3210,-1,0.7240,pilot,PASS,12530
-t3y_07,surfaces/t3y_07-on-20260319101107-2.399um.tifxyz,earlier_VSG_t3y,12941.5 11533.5 33313.5,3.8135,3.8135,3.8256,11487,True,1.3821,1,0.7373,pilot,PASS,11349
-t3y_09,surfaces/t3y_09-on-20260319101107-2.399um.tifxyz,earlier_VSG_t3y,11053.5 9809.5 28893.5,13.5795,13.5795,13.6758,38908,True,1.5439,-1,0.7478,pilot,PASS,38687
-t3y_14,surfaces/t3y_14-on-20260319101107-2.399um.tifxyz,earlier_VSG_t3y,8493.5 10337.5 26649.5,12.7826,17.5203,17.6462,50574,True,1.7655,-1,0.7655,pilot,PASS,50049
-t3y_16,surfaces/t3y_16-on-20260319101107-2.399um.tifxyz,earlier_VSG_t3y,7501.5 7949.5 42197.5,1.2415,1.2415,1.2473,4317,False,1.0352,1,0.7915,pilot,PASS,4099
-t3y_20,surfaces/t3y_20-on-20260319101107-2.399um.tifxyz,earlier_VSG_t3y,11129.5 7949.5 28373.5,1.4415,1.4415,1.4468,4884,False,1.2907,-2,0.7445,pilot,PASS,4671
-t3y_22,surfaces/t3y_22-on-20260319101107-2.399um.tifxyz,earlier_VSG_t3y,7273.5 7381.5 27357.5,1.9558,1.9558,1.9631,6265,False,1.1080,-6,0.8507,pilot,PASS,6071
-t3y_28,surfaces/t3y_28-on-20260319101107-2.399um.tifxyz,earlier_VSG_t3y,6321.5 11145.5 29005.5,0.4351,0.4351,0.4358,1452,False,1.2363,0,0.8733,pilot,PASS,1412
-t3yb_00,surfaces/t3yb_00-on-20260319101107-2.399um.tifxyz,earlier_VSD_t3yb,9577.5 13249.5 14033.5,12.5979,12.5979,12.6825,36269,True,1.4582,0,0.8033,pilot,PASS,36016
-t3yb_01,surfaces/t3yb_01-on-20260319101107-2.399um.tifxyz,earlier_VSD_t3yb,7937.5 11729.5 16349.5,14.0687,14.0687,14.1607,40989,True,1.5494,1,0.7542,pilot,PASS,40610
-t3yb_06,surfaces/t3yb_06-on-20260319101107-2.399um.tifxyz,earlier_VSD_t3yb,10569.5 13929.5 16201.5,8.5801,8.5956,8.6460,26031,False,1.2743,0,0.8015,pilot,PASS,25696
-t3yb_12,surfaces/t3yb_12-on-20260319101107-2.399um.tifxyz,earlier_VSD_t3yb,10441.5 10653.5 22389.5,17.3659,18.4178,18.5841,51704,True,1.5165,1,0.7343,pilot,PASS,51585
-t3yb_14,surfaces/t3yb_14-on-20260319101107-2.399um.tifxyz,earlier_VSD_t3yb,7369.5 8041.5 38361.5,0.6856,0.6856,0.6905,2281,True,2.1462,1,0.6944,pilot,PASS,2230
-t3yb_15,surfaces/t3yb_15-on-20260319101107-2.399um.tifxyz,earlier_VSD_t3yb,13097.5 7953.5 43161.5,0.5151,0.5151,0.5193,1682,True,1.6333,1,0.8490,pilot,PASS,1645
-t3yb_16,surfaces/t3yb_16-on-20260319101107-2.399um.tifxyz,earlier_VSD_t3yb,11421.5 8353.5 19229.5,1.4908,1.4908,1.4944,5066,False,0.9758,-4,0.7991,pilot,PASS,4915
-t3yb_19,surfaces/t3yb_19-on-20260319101107-2.399um.tifxyz,earlier_VSD_t3yb,13097.5 7369.5 42405.5,0.5904,0.5904,0.5905,2121,False,1.0339,0,0.7963,pilot,PASS,2032
-t3yb_23,surfaces/t3yb_23-on-20260319101107-2.399um.tifxyz,earlier_VSD_t3yb,8261.5 11181.5 34101.5,6.0299,6.0299,6.0642,17951,True,1.7619,0,0.7088,pilot,PASS,17717
-t3yb_27,surfaces/t3yb_27-on-20260319101107-2.399um.tifxyz,earlier_VSD_t3yb,8149.5 10417.5 36797.5,1.4810,1.4810,1.4886,4726,False,1.3512,0,0.7457,pilot,PASS,4597
+unit,folder,batch,fibre_check_pass,gated,area_in_file_cm2
+t3g_01,surfaces/fail_fibre_check/t3g_01-on-20260319101107-2.399um.tifxyz,v1/v2,False,False,5.4331
+t3g_04,surfaces/gated/t3g_04-on-20260319101107-2.399um.tifxyz,v1/v2,True,True,15.8813
+t3g_09,surfaces/fail_fibre_check/t3g_09-on-20260319101107-2.399um.tifxyz,v1/v2,False,False,3.6827
+t3g_10,surfaces/gated/t3g_10-on-20260319101107-2.399um.tifxyz,v1/v2,True,True,1.8964
+t3g_15,surfaces/fail_fibre_check/t3g_15-on-20260319101107-2.399um.tifxyz,v1/v2,False,False,1.85
+t3g_25,surfaces/gated/t3g_25-on-20260319101107-2.399um.tifxyz,v1/v2,True,True,2.2804
+t3g_27,surfaces/gated/t3g_27-on-20260319101107-2.399um.tifxyz,v1/v2,True,True,16.2094
+t3g_30,surfaces/fail_fibre_check/t3g_30-on-20260319101107-2.399um.tifxyz,v1/v2,False,False,7.7662
+t3g_36,surfaces/fail_fibre_check/t3g_36-on-20260319101107-2.399um.tifxyz,v1/v2,False,False,3.3624
+t3h_00,surfaces/gated/t3h_00-on-20260319101107-2.399um.tifxyz,v1/v2,True,True,19.0232
+t3h_02,surfaces/gated/t3h_02-on-20260319101107-2.399um.tifxyz,v1/v2,True,True,2.9769
+t3h_06,surfaces/gated/t3h_06-on-20260319101107-2.399um.tifxyz,v1/v2,True,True,4.5051
+t3h_07,surfaces/gated/t3h_07-on-20260319101107-2.399um.tifxyz,v1/v2,True,True,5.3421
+t3h_08,surfaces/gated/t3h_08-on-20260319101107-2.399um.tifxyz,v1/v2,True,True,11.0602
+t3h_12,surfaces/gated/t3h_12-on-20260319101107-2.399um.tifxyz,v1/v2,True,True,2.7321
+t3h_13,surfaces/gated/t3h_13-on-20260319101107-2.399um.tifxyz,v1/v2,True,True,12.2703
+t3h_19,surfaces/gated/t3h_19-on-20260319101107-2.399um.tifxyz,v1/v2,True,True,2.5602
+t3h_26,surfaces/fail_fibre_check/t3h_26-on-20260319101107-2.399um.tifxyz,v1/v2,False,False,1.3674
+t3h_27,surfaces/fail_fibre_check/t3h_27-on-20260319101107-2.399um.tifxyz,v1/v2,False,False,1.3358
+t3h_52,surfaces/fail_fibre_check/t3h_52-on-20260319101107-2.399um.tifxyz,v1/v2,False,False,1.0844
+t3y_02,surfaces/fail_fibre_check/t3y_02-on-20260319101107-2.399um.tifxyz,v1/v2,False,False,4.64
+t3y_03,surfaces/fail_fibre_check/t3y_03-on-20260319101107-2.399um.tifxyz,v1/v2,False,False,3.8743
+t3y_06,surfaces/fail_fibre_check/t3y_06-on-20260319101107-2.399um.tifxyz,v1/v2,False,False,4.2545
+t3y_07,surfaces/gated/t3y_07-on-20260319101107-2.399um.tifxyz,v1/v2,True,True,3.8256
+t3y_09,surfaces/gated/t3y_09-on-20260319101107-2.399um.tifxyz,v1/v2,True,True,11.8636
+t3y_14,surfaces/gated/t3y_14-on-20260319101107-2.399um.tifxyz,v1/v2,True,True,17.2774
+t3y_16,surfaces/fail_fibre_check/t3y_16-on-20260319101107-2.399um.tifxyz,v1/v2,False,False,1.2473
+t3y_20,surfaces/fail_fibre_check/t3y_20-on-20260319101107-2.399um.tifxyz,v1/v2,False,False,1.4468
+t3y_22,surfaces/fail_fibre_check/t3y_22-on-20260319101107-2.399um.tifxyz,v1/v2,False,False,1.9631
+t3y_28,surfaces/fail_fibre_check/t3y_28-on-20260319101107-2.399um.tifxyz,v1/v2,False,False,0.4358
+t3yb_00,surfaces/gated/t3yb_00-on-20260319101107-2.399um.tifxyz,v1/v2,True,True,12.6825
+t3yb_01,surfaces/gated/t3yb_01-on-20260319101107-2.399um.tifxyz,v1/v2,True,True,13.407
+t3yb_06,surfaces/fail_fibre_check/t3yb_06-on-20260319101107-2.399um.tifxyz,v1/v2,False,False,8.1197
+t3yb_12,surfaces/gated/t3yb_12-on-20260319101107-2.399um.tifxyz,v1/v2,True,True,18.372
+t3yb_14,surfaces/gated/t3yb_14-on-20260319101107-2.399um.tifxyz,v1/v2,True,True,0.6905
+t3yb_15,surfaces/gated/t3yb_15-on-20260319101107-2.399um.tifxyz,v1/v2,True,True,0.5193
+t3yb_16,surfaces/fail_fibre_check/t3yb_16-on-20260319101107-2.399um.tifxyz,v1/v2,False,False,1.4944
+t3yb_19,surfaces/fail_fibre_check/t3yb_19-on-20260319101107-2.399um.tifxyz,v1/v2,False,False,0.5905
+t3yb_23,surfaces/gated/t3yb_23-on-20260319101107-2.399um.tifxyz,v1/v2,True,True,6.0642
+t3yb_27,surfaces/fail_fibre_check/t3yb_27-on-20260319101107-2.399um.tifxyz,v1/v2,False,False,1.4886
+w1451_00,surfaces/gated/w1451_00-on-20260319101107-2.399um.tifxyz,WRAPSEED1,True,True,16.7218
+w1451_01,surfaces/gated/w1451_01-on-20260319101107-2.399um.tifxyz,WRAPSEED1,True,True,12.9045
+w1451_03,surfaces/gated/w1451_03-on-20260319101107-2.399um.tifxyz,WRAPSEED1,True,True,10.8593
+w1451_05,surfaces/gated/w1451_05-on-20260319101107-2.399um.tifxyz,WRAPSEED1,True,True,7.2378
+w1451_11,surfaces/gated/w1451_11-on-20260319101107-2.399um.tifxyz,WRAPSEED1,True,True,21.0977
+w1451_16,surfaces/gated/w1451_16-on-20260319101107-2.399um.tifxyz,WRAPSEED1,True,True,3.8887
+w1451_23,surfaces/gated/w1451_23-on-20260319101107-2.399um.tifxyz,WRAPSEED1,True,True,18.0856
+w1451_24,surfaces/gated/w1451_24-on-20260319101107-2.399um.tifxyz,WRAPSEED1,True,True,4.0447
+w1451_27,surfaces/gated/w1451_27-on-20260319101107-2.399um.tifxyz,WRAPSEED1,True,True,13.2527
+w1451_31,surfaces/gated/w1451_31-on-20260319101107-2.399um.tifxyz,WRAPSEED1,True,True,3.164
+w1451_32,surfaces/gated/w1451_32-on-20260319101107-2.399um.tifxyz,WRAPSEED1,True,True,6.8669
+w1451_33,surfaces/gated/w1451_33-on-20260319101107-2.399um.tifxyz,WRAPSEED1,True,True,4.7878
+w1451_39,surfaces/gated/w1451_39-on-20260319101107-2.399um.tifxyz,WRAPSEED1,True,True,16.3236
+w1451_040,surfaces/gated/w1451_040-on-20260319101107-2.399um.tifxyz,WRAPSEED2,True,True,1.8785
+w1451_058,surfaces/gated/w1451_058-on-20260319101107-2.399um.tifxyz,WRAPSEED2,True,True,6.0808
+w1451_110,surfaces/gated/w1451_110-on-20260319101107-2.399um.tifxyz,WRAPSEED2,True,True,5.4903
+w1451_132,surfaces/gated/w1451_132-on-20260319101107-2.399um.tifxyz,WRAPSEED2,True,True,3.4415

@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use these surfaces, please cite this release and the scan it is derived from (https://scrollprize.org/data)."
+title: "PHerc1451 surfaces (tifxyz)"
+type: dataset
+authors:
+  - name: "EconLearn"
+repository-code: "https://github.com/EconLearn/pherc1451-surfaces"
+license: CC-BY-NC-4.0
+version: "v3"
+date-released: "2026-11-20"
+references:
+  - type: data
+    title: "PHerc1451 scan 20260319101107 (2.399 um), Vesuvius Challenge open data"
+    authors:
+      - name: "Vesuvius Challenge"
+    url: "https://scrollprize.org/data"
